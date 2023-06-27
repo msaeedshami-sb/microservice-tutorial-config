@@ -9,4 +9,5 @@ fetch-registry: true
 register-with-eureka: true
 service-url : 
 defaultZone: http://localhost:8010/eureka
-
+token:
+expiration_time: 3800000
